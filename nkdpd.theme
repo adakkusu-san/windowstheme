@@ -1,0 +1,122 @@
+; The theme I use ^^
+; Inspired from AveYo's Blackless theme
+; at https://gist.github.com/AveYo/657c319820dd74f44d281cdf3c585879
+
+; Save as something.theme
+
+; This is based on High Contrast theme, so things may look weird
+; Blame Windows 8+ for not allowing us to use the Windows Classic "theme"
+
+[Theme]
+DisplayName=NkdP Dark Theme
+ThemeId={4E1E34F7-2453-4C60-9696-A10E8E9505CB}
+
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+Full=%SystemRoot%\System32\imageres.dll,-54
+Empty=%SystemRoot%\System32\imageres.dll,-55
+
+[Control Panel\Cursors]
+AppStarting=%SystemRoot%\cursors\wait_r.cur
+Arrow=%SystemRoot%\cursors\arrow_r.cur
+Crosshair=%SystemRoot%\cursors\cross_r.cur
+Hand=
+Help=%SystemRoot%\cursors\help_r.cur
+IBeam=%SystemRoot%\cursors\beam_r.cur
+No=%SystemRoot%\cursors\no_r.cur
+NWPen=%SystemRoot%\cursors\pen_r.cur
+SizeAll=%SystemRoot%\cursors\move_r.cur
+SizeNESW=%SystemRoot%\cursors\size1_r.cur
+SizeNS=%SystemRoot%\cursors\size4_r.cur
+SizeNWSE=%SystemRoot%\cursors\size2_r.cur
+SizeWE=%SystemRoot%\cursors\size3_r.cur
+UpArrow=%SystemRoot%\cursors\up_r.cur
+Wait=%SystemRoot%\cursors\busy_r.cur
+DefaultValue=Windows Black
+
+[Control Panel\Desktop]
+Wallpaper=
+;TileWallpaper=0
+;Pattern=
+;MultimonBackgrounds=0
+;PicturePosition=4
+
+[Control Panel\Desktop\WindowMetrics]
+BorderWidth=-15
+CaptionHeight=-270
+CaptionWidth=-330
+IconTitleWrap=1
+MenuHeight=-285
+MenuWidth=-285
+ScrollHeight=-255
+ScrollWidth=-255
+SmCaptionHeight=-330
+SmCaptionWidth=-330
+PaddedBorderWidth=-60
+MinAnimate=0
+
+[VisualStyles]
+Path=%SystemRoot%\resources\Themes\Aero\Aerolite.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC41E1E1E
+HighContrast=5
+VisualStyleVersion=10
+Transparency=0
+
+[Control Panel\Colors]
+ActiveTitle=42 40 38
+Background=57 110 165
+Hilight=0 78 155
+HilightText=231 231 231
+;TitleText=231 231 231 ;border
+TitleText=43 47 55
+Window=23 23 23
+WindowText=231 231 231
+Scrollbar=57 63 74
+InactiveTitle=32 30 28
+Menu=43 47 55
+WindowFrame=0 0 0
+MenuText=231 231 231
+ActiveBorder=43 47 55
+InactiveBorder=43 47 55
+AppWorkspace=28 31 36
+;^ i still don't know what this is
+ButtonFace=43 47 55
+ButtonShadow=28 31 36
+GrayText=131 149 160
+ButtonText=231 231 231
+;InactiveTitleText=212 208 200 ;border
+InactiveTitleText=43 47 55
+ButtonHilight=139 148 165
+ButtonDkShadow=64 64 64
+ButtonLight=43 47 55
+InfoText=231 231 231
+InfoWindow=0 0 30
+GradientActiveTitle=42 40 38
+GradientInactiveTitle=32 30 28
+;^ these 2 don't get used anyway
+;so, they're the same
+ButtonAlternateFace=181 181 181
+HotTrackingColor=0 153 255
+MenuHilight=10 36 106
+MenuBar=212 208 200
+
+[boot]
+SCRNSAVE.EXE=
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Sounds]
+; IDS_SCHEME_DEFAULT
+SchemeName=No Sounds
